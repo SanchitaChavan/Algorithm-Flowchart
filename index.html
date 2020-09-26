@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Flowchart</title>
+</head>
+<body>
+
+    
+    <div class="center">
+    <div class="box002 column" ondrop="drop003(event)">
+        <text ondragstart="dragStart003(event)" draggable="true" id="target003">Spread Butter</text>
+    </div>
+
+    <div class="box002 column" ondrop="drop004(event)">
+        <text ondragstart="dragStart004(event)" draggable="true" id="target004">Add veggies</text>
+    </div>
+
+    <div class="box002 column" ondrop="drop001(event)">
+        <text ondragstart="dragStart001(event)" draggable="true" id="target001">Gather Ingredients</text>
+    </div>
+
+    <div class="box002 column" ondrop="drop002(event)">
+        <text ondragstart="dragStart002(event)" draggable="true" id="target002">Grab Knife</text>
+    </div>
+
+</div>
+
+
+
+
+
+    <br /><br /><br /><br />
+     <section class="droppable-elements">
+            <div class=" droppable1" ><span></span></div>
+         <div style='font-size:10px; text-align: center; color: white'>&#8681;</div>
+
+        <div class="start" ><span>Start</span></div>
+         <div style='font-size:30px; text-align: center;'>&#8681;</div>
+
+        <div class=" droppable" data-draggable-id="frog" ondrop="drop006(event)"ondragover="allowDrop001(event)" id="place001"><span>1</span></div>
+         <div style='font-size:30px; text-align: center;'>&#8681;</div>
+
+    <div class=" droppable" data-draggable-id="frog" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002"><span>2</span></div>
+    <div style='font-size:30px; text-align: center;'>&#8681;</div>
+
+    <div class=" droppable" data-draggable-id="frog" ondrop="drop008(event)" ondragover="allowDrop003(event)" id="place003"><span>3</span></div>
+    <div style='font-size:30px; text-align: center;'>&#8681;</div>
+
+    <div class=" droppable" data-draggable-id="frog" ondrop="drop009(event)" ondragover="allowDrop004(event)" id="place004"><span>4</span></div>
+    <div style='font-size:30px; text-align: center;'>&#8681;</div>
+
+            <div class="start" ><span>Sandwich<br>End</span></div>
+
+
+    <!-- <div class="droppable" data-draggable-id="spider"><span>Spider</span></div>
+    <div class="droppable" data-draggable-id="horse"><span>Horse</span></div>
+    <div class="droppable" data-draggable-id="hippo"><span>Hippo</span></div> -->
+  </section>
+
+
+
+
+ 
+    <button class="button"  style="text-decoration: none; background-color: #b7b4b8"onclick="submit001()"><a href="submit.html">Submit</a></button>
+    <p id="message001"></p>
+
+   
+</body>
+</html>
