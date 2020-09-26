@@ -1,0 +1,86 @@
+       .button{
+            cursor: pointer;
+  margin: 0;
+  position: absolute;
+  margin-top: 30px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    border-radius: 25px;
+
+}
+        .droppable1 {
+  height: 2rem;
+  width: 12rem;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+   border: 2px solid #fff;
+  background-color: white;
+  transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+        .droppable {
+  height: 1.8rem;
+  width: 12rem;
+  margin: 0rem auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #111;
+  transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.box002:hover {
+  opacity: 0.5;
+}
+.start{
+  height: 1.8rem;
+  width: 8rem;
+  margin: 0rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #fff;
+  border: 2px solid #111;
+  transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+.column {
+  float: left;
+  width: 20%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.center{
+            margin-left: auto;
+            margin-right: auto;
+          width: 40%;
+
+}
+
+        .box002 {
+                cursor: move;
+            width: 75px;
+            height: 15px;
+            margin: 12px;
+            padding: 10px;
+            border: 1px solid white;
+        }
